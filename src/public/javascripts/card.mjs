@@ -49,3 +49,7 @@ export const calculateHand = hand => {
   }
   return total;
 }
+export const deal = (deck) =>{
+  const card = deck.pop();
+  return [card, deck];
+}
